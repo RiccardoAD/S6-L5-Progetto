@@ -1,0 +1,68 @@
+
+.size-s {
+    font-size: 20px;
+}
+
+.bg-welcome {
+    background-color:rgb(222, 236, 241) ;
+    
+ 
+    padding: 1rem;
+}
+
+.img-welcome {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.card-img {
+    height: 12rem;
+    object-fit: cover;
+}
+
+.logo {
+    width: 7rem;
+    padding: 0rem;
+      color: black;
+}
+
+.footer div {
+    margin-inline: 2rem;
+}
+.footer div:hover {
+    cursor: pointer;
+}
+
+.copy-right {
+    text-align: center;
+    padding-block-start: 0.5rem;
+    padding-block-end: 0.8rem;
+    color: black;
+    background-color: rgb(99, 124, 142);
+}
+
+.bg-color {
+    background-color:rgb(99, 124, 142) ;
+    color: black;
+    padding-block: 0.3rem;
+}
+.card {
+    transition: transform 0.5s, box-shadow 0.5s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: rotateY(15deg);
+}
+
+.img-welcome img {
+    width: 100%;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.img-welcome img:hover {
+    transform: rotateY(15deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
